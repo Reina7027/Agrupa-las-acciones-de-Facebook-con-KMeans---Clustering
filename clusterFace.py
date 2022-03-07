@@ -1,3 +1,10 @@
+'''
+    Description:
+    Group Facebook actions with KMeans
+    Author: YolaM
+    Version: 1.0
+'''
+
 ###1.-Cargar librerias
 import pandas as pd
 import numpy as np
@@ -6,7 +13,7 @@ from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 
 ###2.-Cargar la base de datos
-path='C:/Users/usuario/Desktop/TAREAS-5°Ciclo-n°complej/Python/EVA2PY/'
+path='C:/Users/usuario/Desktop/TAREAS-5°Ciclo-n°complej/Python/EVA2PY/' # your path
 df=pd.read_csv(path+'FB.csv')
 
 ###3.-Preprocesado de los datos
